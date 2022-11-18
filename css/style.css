@@ -1,0 +1,199 @@
+@font-face {
+    font-family: "Open Sans";
+    src: url(https://netology-code.github.io/html-2-diploma/sources/fonts/OpenSans-Regular.woff);
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Open Sans";
+    src: url(https://netology-code.github.io/html-2-diploma/sources/fonts/OpenSans-Bold.woff);
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+
+body {
+background-image: url(/images/bg.png);
+}
+
+h3 {
+    padding: 0;
+    margin: 0;
+}
+
+.page {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.container{
+    min-width: 320px;
+}
+
+.header {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header-logo {
+    position: relative;
+    z-index: 10;
+    margin-top: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;;
+}
+
+
+.header-cloud_1 {
+        position: absolute;
+        top: -80px;
+        left: -80px;
+        width: 850px;
+}
+.header-cloud_2 {
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    width: 350px;
+}
+
+.line{
+width: 600px;
+display: block;
+    margin-left: auto;
+    margin-right: 15%;
+    margin-bottom: 50px;
+    margin-top: -30px;
+}
+
+
+.video{
+    width: 1200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 400px;
+    margin-bottom: 150px;
+}
+
+.line-2 {
+    visibility: hidden;
+}
+.plaska-left{
+    width: 1200px;
+    position: relative;
+        left: 20px;
+        margin: -50px;
+}
+
+.mess{
+    position: relative;
+    margin-left: -1000px;
+    margin-bottom: 50px;
+
+}
+
+.plaska-right {
+    width: 1300px;
+    float: right;
+    margin-top: 40px;
+}
+
+.cta{
+    width: 850px;
+    display: block;
+        margin-left: auto;
+        margin-right: auto;
+}
+
+.rupor {
+    width: 400px;
+    position: absolute;
+    margin-top: -270px;
+    margin-left: 350px;
+
+}
+.pic{
+    width: 850px;
+    position: absolute;
+        margin-top: -240px;
+        margin-left: 900px;      
+}
+
+.konteiner-frame{
+}
+
+.frame{
+    width: 1000px;
+    display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 600px;
+        margin-bottom: 200px;
+}
+
+
+@media (max-width: 1440px){
+    .header-cloud_1 {
+    top: -5px;
+    left: -80px;
+    width: 450px
+}
+
+    .header-cloud_2{
+    width: 250px
+}
+    .line-2 {
+    visibility: hidden;
+}
+    .line {
+    width: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: 15%;
+    margin-bottom: 50px;
+    margin-top: -30px;
+}
+    .video {
+    width: 1200px;
+ }
+}
+
+.cta{
+    width: 1300px;
+
+}
+
+@media (max-width: 460px) {
+
+    .header-logo {
+        margin-top: 80px;
+    }
+    .header-cloud_1 {
+        width: 60%;
+        top: 10px;
+        left: -40px;
+    }
+    .header-cloud_2 {
+        width: 60%;
+        top: -5px;
+        right: -30px;
+    }
+    .line {
+        visibility: hidden;
+    }
+    .line-2 {
+        visibility: visible;
+        display: block;
+        margin-left: auto;
+        margin-right: auto; 
+        }
+        .video{
+            margin-top: 10px;
+        }
+}
